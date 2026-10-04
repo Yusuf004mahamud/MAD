@@ -1,0 +1,9 @@
+Open build.gradle.kts (Module :app) -- NOT the Project one.
+Inside the existing android { } block, add (or merge into your existing buildFeatures block):
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
+
+Then click Sync Now.
