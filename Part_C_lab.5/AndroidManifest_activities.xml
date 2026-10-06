@@ -1,0 +1,21 @@
+<!-- RegisterActivity is added by the wizard automatically; it should look like this.
+     Only LoginActivity keeps the launcher intent-filter. -->
+<activity
+    android:name=".LoginActivity"
+    android:exported="true"
+    android:windowSoftInputMode="adjustResize">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+
+<activity
+    android:name=".RegisterActivity"
+    android:exported="false"
+    android:windowSoftInputMode="adjustResize" />
+
+<activity
+    android:name=".MainActivity"
+    android:exported="false"
+    android:windowSoftInputMode="adjustResize" />
