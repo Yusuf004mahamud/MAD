@@ -47,7 +47,7 @@
         android:id="@+id/registerPasswordEditText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="Password (min 6 characters)"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:layout_marginTop="16dp"

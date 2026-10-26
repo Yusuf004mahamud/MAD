@@ -1,6 +1,6 @@
 package com.example.tenantmanagementsystemgroupa
 
-// One shared list of tenants for the whole app
+// One shared list of tenants for the whole app (memory only, lost when the app closes)
 object TenantRepository {
     val tenants = mutableListOf<Tenant>()
 

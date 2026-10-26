@@ -21,6 +21,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Enter tenant name"
+        android:inputType="textPersonName"
         android:minHeight="48dp"
         android:padding="12dp"
         android:layout_marginTop="8dp"
